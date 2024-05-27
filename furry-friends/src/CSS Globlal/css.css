@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+
+body {
+    background-color: #FEC7D7;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+/*-------------*/
+
+.content_msg_1 {
+    display: flex;
+    margin-top: 5%;
+    margin-left: 15%;
+}
+
+.msg_1 {
+    font-weight: 800;
+    font-size: 24px;
+    color: var(--Black, #0E172C);
+}
+
+/*-------------*/
+
+.content_msg_2 {
+    display: flex;
+    margin-top: 1%;
+    margin-left: 5%;
+}
+
+.msg_2 {
+    font-weight: bold;
+    font-size: 20px;
+    color: var(--Black, #0E172C);
+}
+
+/*-------------*/
+.content_perros,
+.content_gatos {
+    cursor: pointer !important;
+    border-radius: 8px;
+    background: var(--Black, #0E172C);
+
+    display: flex;
+    width: 200px;
+    padding: 15px;
+    align-items: center;
+    margin: 50px;
+}
+
+.content_cuadros {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/*---------------*/
+.logo_gato {
+    padding-left: 1%;
+    position: absolute;
+}
+
+/*------------------*/
+.nombre_g_p {
+    font-weight: bold;
+    color: white;
+    padding-left: 10%;
+}
+
+
+/* Footer */
+
+.footer {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}
+
+.Footer-Home {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Home {
+    display: flex;
+    align-items: center;
+}
+
+.textoFooter {
+    margin-left: 10px;
+}
+
+.logo {
+    width: auto;
+    height: auto;
+    margin-right: 10px;
+}
+
+.active {
+    background-color: #0E172C;
+    opacity: 0.70;
+}
