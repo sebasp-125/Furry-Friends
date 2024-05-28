@@ -28,7 +28,7 @@ export default function LandingPage() {
                     <img className="logo_gato" src="https://res.cloudinary.com/dbwgsrqgm/image/upload/v1702604543/Adopcion/perros/perros_oetwuw.png" alt="" />
                     <p className="nombre_g_p">Perros</p>
                 </div>
-                <div className={colorPets ? "content_gatos" : "content_gatos active"} onClick={handleOcolorPetsFalse}>
+                <div className={colorPets ? "content_gatos " : "content_gatos active"} onClick={handleOcolorPetsFalse}>
                     <img src="https://res.cloudinary.com/dbwgsrqgm/image/upload/v1702604464/Adopcion/gatos/Ellipse_8_pzg5km.png" alt="" className="background_img" />
                     <img className="logo_gato" src="https://res.cloudinary.com/dbwgsrqgm/image/upload/v1702604475/Adopcion/gatos/gatos_lgx2mu.png" alt="" />
                     <p className="nombre_g_p">Gatos</p>
